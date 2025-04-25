@@ -107,6 +107,7 @@ The project is organized into modular Python and jupyter files for clarity and m
 | `chroma_db/`                    | Directory containing the Chroma vector store database.                      |
 | `data_cleanining.ipynb`         | Clean the web-scraped datasets: remove HTML tags and convert them into the correct format |
 | `prodigalai-rag.ipynb`          | Jupyter notebook files contains complete RAG pipeline for performing new experiments |
+| `fix_encoding.py`               | Fixing the encoding related problem in csv file                              |
 
 ## Installation
 
@@ -123,24 +124,24 @@ To set up the project locally, follow these steps:
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-
+   
 3. **Install Dependencies**:
-   Create a `requirements.txt` file with the following content:
-   ```
-   ```
-   Then run:
    ```bash
    pip install -r requirements.txt
    ```
-
-4. **Prepare Data**:
+4. **Run Streamlit App**:
+    ```bash
+   cd Streamlit_App
+   ```
+    
+5. **Prepare Data**:
    - Place the `cleaned_my_scheme_data_fixed.csv` file in the project directory or update the `CSV_PATH` in `main.py` to point to its location.
 
-5. **Generate or Load Embeddings**:
+6. **Generate or Load Embeddings**:
    - If embeddings are not precomputed, `main.py` will generate them using the BAAI/bge-m3 model and save them to `chunks_with_embeddings.pkl`.
    - If `chunks_with_embeddings.pkl` exists, it will be loaded to skip embedding generation.
 
-6. **Run the Application**:
+7. **Run the Application**:
    ```bash
    streamlit run app.py
    ```
@@ -155,9 +156,6 @@ To use the application:
    streamlit run app.py
    ```
    This starts a local web server, typically at `http://localhost:8501`.
-
-2. **Access the Interface**:
-   Open the provided URL in a  [Streamlit](https://streamlit.io/) browser interface.
 
 3. **Query Schemes**:
    - Enter a question about government schemes (e.g., “Financial assistance for disabled students in Kerala”).
