@@ -1,0 +1,12 @@
+pandas
+langchain
+langchain-community
+pydantic
+torch
+chromadb
+transformers
+FlagEmbedding
+requests
+beautifulsoup4
+selenium
+brotli
