@@ -169,4 +169,4 @@ To use the application:
 
 - [Myscheme.gov.in: National Platform for Government Schemes](https://www.myscheme.gov.in/)
 - [BAAI/bge-m3: Multilingual Text Embedding Model](https://huggingface.co/BAAI/bge-m3)
-- [tiiuae/Falcon3-1B-Instruct: Instruction-Tuned Language Model](https://huggingface.co/tiiuae/Falcon3-1B-Instruct)
+- [tiiuae/Falcon3-3B-Instruct: Instruction-Tuned Language Model](https://huggingface.co/tiiuae/Falcon3-3B-Instruct)
