@@ -18,7 +18,7 @@ This project is ideal for citizens, researchers, or policymakers seeking quick a
 
 ## Data Source and Structure
 
-The application relies on data web scraped from [Myscheme.gov.in](https://www.myscheme.gov.in/), a government platform that provides a centralized repository of scheme information. The data is stored in a CSV file (`cleaned_my_scheme_data_fixed.csv`) and includes the following fields for each scheme:
+The application relies on data web scraped from [Myscheme.gov.in](https://www.myscheme.gov.in/) , a government platform that provides a centralized repository of scheme information. The data is stored in a CSV file (`cleaned_my_scheme_data_fixed.csv`) and includes the following fields for each scheme:
 
 | Field                        | Description                                                                 |
 |------------------------------|-----------------------------------------------------------------------------|
