@@ -44,7 +44,7 @@ The RAG pipeline is the core of the application, seamlessly integrating retrieva
 4. **Vector Store**: Stores embeddings in a Chroma vector database with cosine similarity for efficient retrieval.
 5. **Retrieval**: Uses a custom retriever to embed user queries and fetch the top-k most relevant documents.
 6. **Augmentation**: Combines the query with retrieved documents to create a context-rich prompt.
-7. **Generation**: Feeds the prompt to the Falcon3-1B-Instruct model to produce a detailed response.
+7. **Generation**: Feeds the prompt to the Falcon3-3B-Instruct model to produce a detailed response.
 8. **Parsing**: Formats the response for clarity and displays it to the user.
 
 This modular design ensures scalability and maintainability, allowing each component to be updated independently.
